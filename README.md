@@ -82,4 +82,40 @@ The project demonstration will be linked here when available.
 
 ## Acknowledgments
 
-Developed as an academic robotics project using ROS 2, Gazebo, TurtleBot3, and OpenManipulator.
+Developed as an academic robotics project using ROS 2, Gazebo, TurtleBot3, and OpenManipulator. 
+
+
+## Setup and Installation
+
+### Prerequisites
+
+Before running the project, prepare an environment with the required ROS 2 distribution and compatible versions of Gazebo, TurtleBot3, and OpenManipulator packages.
+
+You will also need the project dependencies and robot description files referenced by the launch configuration.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/AbdulahAlnofal-Ai/turtlebot3-autonomous-object-retrieval.git
+cd turtlebot3-autonomous-object-retrieval
+```
+
+### Build the ROS 2 Package
+
+From the repository root, copy or place the package in a ROS 2 workspace under `src/`, then build it:
+
+```bash
+cd ~/ai407_ws
+colcon build --packages-select pkg
+source install/setup.bash
+```
+
+**Note:** The repository currently stores the package files at its root. The build commands above assume you have placed the package inside `~/ai407_ws/src/pkg/` first. Additional robot description files and dependencies may be required.
+
+## Demo
+
+A demonstration video can be linked here once it is available.
+
+## Limitations
+
+The simulation depends on compatible ROS 2, Gazebo, TurtleBot3, and OpenManipulator configurations. Object detection and manipulation performance may vary depending on sensor readings, robot positioning, and grasp stability.
