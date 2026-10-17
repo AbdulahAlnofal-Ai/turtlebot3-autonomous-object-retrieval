@@ -119,3 +119,12 @@ A demonstration video can be linked here once it is available.
 ## Limitations
 
 The simulation depends on compatible ROS 2, Gazebo, TurtleBot3, and OpenManipulator configurations. Object detection and manipulation performance may vary depending on sensor readings, robot positioning, and grasp stability.
+
+
+## Demo Video
+
+Watch the demonstration of the TurtleBot3 Autonomous Object Retrieval and Placement project.
+
+[![Watch the TurtleBot3 Project Demo](https://img.youtube.com/vi/VvJcJqC3xAg/0.jpg)](https://youtu.be/VvJcJqC3xAg)
+
+**[▶ Watch the full demo on YouTube](https://youtu.be/VvJcJqC3xAg)**
